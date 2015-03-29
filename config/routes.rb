@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   #get 'wikis/edit'
   resources :wikis
+  resources :subscriptions
   get 'welcome/index'
 
   get 'welcome/about'

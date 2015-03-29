@@ -1,0 +1,4 @@
+<%= form_tag subscriptions_path do %>
+<%= hidden_field_tag :plan, @stripe_btn_hash[:plan][:free] %>
+<script <%= raw @stripe_btn_hash[:script] %> <%= raw @stripe_btn_hash[:plan][:free_info] %>></script>
+<% end %>

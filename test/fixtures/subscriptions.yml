@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sub_type: MyString
+  stripe_id: MyString
+  sub_id: MyString
+  user_id: 
+
+two:
+  sub_type: MyString
+  stripe_id: MyString
+  sub_id: MyString
+  user_id: 
